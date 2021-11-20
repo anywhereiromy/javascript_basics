@@ -8,7 +8,7 @@ const {
 } = require('../strings');
 
 describe('sayHello', () => {
-  it('returns "Hello world!" when passed "world"', () => {
+  xit('returns "Hello world!" when passed "world"', () => {
     expect(sayHello('world')).toEqual('Hello, world!');
   });
 
@@ -30,7 +30,7 @@ describe('uppercase', () => {
 });
 
 describe('lowercase', () => {
-  xit('returns the lowercased string', () => {
+  it('returns the lowercased string', () => {
     expect(lowercase('ABC')).toEqual('abc');
     expect(lowercase('DEF')).toEqual('def');
     expect(lowercase('GHI')).toEqual('ghi');

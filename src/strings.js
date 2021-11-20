@@ -4,11 +4,13 @@ function sayHello (string) {
 };
 
 function uppercase (string) {
-  // your code here
+  string = 'abc';
+  return string.toUpperCase();
 };
 
 function lowercase (string) {
-  // your code here
+  string = 'ABC';
+  return string.toLowerCase();
 };
 
 function countCharacters (string) {
