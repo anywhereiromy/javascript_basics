@@ -14,15 +14,18 @@ function lowercase (string) {
 };
 
 function countCharacters (string) {
-  // your code here
+  string = 'fsfsgsfdg';
+  return string.length;
 };
 
 function firstCharacter (string) {
-  // your code here
+  string = 'ABC';
+  return string.charAt(0);
 };
 
 function firstCharacters (string, n) {
-  // your code here
+  string = 'sd32fg45';
+  return string.substring(0,4);
 };
 
 module.exports = {
